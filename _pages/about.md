@@ -26,7 +26,8 @@ Research Experience
 
 *October 2024 - Present*
 
-Project Overview: Developed DEMO, **an audio-driven talking-portrait video synthesis framework** based on flow-matching generative modeling, addressing the core challenges of poor temporal coherence and limited fine-grained motion control in existing diffusion-based methods. The framework constructs a structured disentangled motion latent space to achieve high-fidelity independent control of lip motion, head pose, and eye gaze, and generates audio-conditioned temporally smooth motion trajectories, ultimately enhancing video realism, lip-audio synchronization, and motion fidelity.
+Project Overview:
+Developed DEMO, **an audio-driven talking-portrait video synthesis framework** based on flow-matching generative modeling, addressing the core challenges of poor temporal coherence and limited fine-grained motion control in existing diffusion-based methods. The framework constructs a structured disentangled motion latent space to achieve high-fidelity independent control of lip motion, head pose, and eye gaze, and generates audio-conditioned temporally smooth motion trajectories, ultimately enhancing video realism, lip-audio synchronization, and motion fidelity.
 
 Key Contributions:
 1. Proposed two technical innovations:
@@ -51,10 +52,8 @@ Achievements:
 *(Advisor: [Prof. Xing Sheng](http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm), Department of Electronic Engineering, **Tsinghua University**)*<br />
 *June 2024 - August 2024*  
 
-Project Overview:
-Developed a dual-modality sensing platform integrating:  
+Project Overview: Developed a dual-modality sensing platform integrating:  
 1. *Hemoglobin spectral sensing*: Achieved real-time blood oxygen saturation (SpO2) monitoring through differential absorption spectroscopy of oxyhemoglobin (HbO2) and deoxyhemoglobin (Hb)
-
 2. *Fluorescent tracer velocimetry*: Implemented blood flow velocity measurement via time-resolved fluorescence tracking  
 
 Key Contributions:  
@@ -74,8 +73,7 @@ Key Contributions:
 *(Advisor: [Prof. Kewang Nan](https://person.zju.edu.cn/knan), **Zhejiang University**)*<br />
 *January 2025 - February 2025*  
 
-Project Overview:  
-Developed a novel protein detection system featuring:  
+Project Overview: Developed a novel protein detection system featuring:  
 1. *Chemoelectric transduction interface*: Implemented flexible electronic sensors as carrier platforms, leveraging protein-specific current response variations induced by molecular charge characteristics  
 2. *Multimodal signal decoding*: Established correlations between protein chemical properties (isoelectric points, molecular weights) and impedance spectroscopy patterns  
 
