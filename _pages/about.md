@@ -9,20 +9,20 @@ redirect_from:
 
 I am currently pursuing a Bachelor's Degree in Electrical Engineering,at School of Electrical Engineering and Automation,Hohai University(Project 211),China.
 
-Research Interests
+🎏 Research Interests
 ------
 Video Generation, Digital Human Creation, Human-Centered 3D Vision.
 
 
 
-📖Education
+📖 Education
 ------
 2023.09 -  now , [Hohai University](https://www.hhu.edu.cn/) , Nanjin, (GPA: 4.74/5, rank: 1/30).
 
 
-📝Publications
+📝 Publications
 ------
-📃Papers
+📃 Papers
 
 <!-- 样式：字体缩小、图片放大、移动端适配 -->
 <style>
@@ -81,7 +81,7 @@ Video Generation, Digital Human Creation, Human-Centered 3D Vision.
 
 
 
-🔍Research Experience
+🔍 Research Experience
 ------
 **Multifunctional Fiber-Optic Sensing Guidewire for Neurointerventional Assistance**  
 *(Advisor: [Prof. Xing Sheng](http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm), Department of Electronic Engineering, **Tsinghua University**)*<br />
