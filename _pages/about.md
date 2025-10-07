@@ -22,7 +22,7 @@ Education
 
 Research Experience
 ------
-**DEMO:Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis**<br />
+**DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis**<br />
 *October 2024 - Present*
 
 Project Overview: Developed DEMO, an audio-driven talking-portrait video synthesis framework based on flow-matching generative modeling, addressing the core challenges of poor temporal coherence and limited fine-grained motion control in existing diffusion-based methods. The framework constructs a structured disentangled motion latent space to achieve high-fidelity independent control of lip motion, head pose, and eye gaze, and generates audio-conditioned temporally smooth motion trajectories, ultimately enhancing video realism, lip-audio synchronization, and motion fidelity.
