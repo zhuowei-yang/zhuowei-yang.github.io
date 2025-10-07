@@ -57,32 +57,6 @@ Publications
 
 Research Experience
 ------
-**DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis**<br />
-
-*October 2024 - Present*
-
-Project Overview:
-Developed DEMO, **an audio-driven talking-portrait video synthesis framework** based on flow-matching generative modeling, addressing the core challenges of poor temporal coherence and limited fine-grained motion control in existing diffusion-based methods. The framework constructs a structured disentangled motion latent space to achieve high-fidelity independent control of lip motion, head pose, and eye gaze, and generates audio-conditioned temporally smooth motion trajectories, ultimately enhancing video realism, lip-audio synchronization, and motion fidelity.
-
-Key Contributions:
-1. Proposed two technical innovations:
- - Designed **a Fine-Grained Controllable Motion Auto-Encoder**: First separates appearance and motion, using motion reconstruction loss, then applies motion-specific contrastive learning (eye gaze with cosine similarity-based contrastive loss, head pose with 3D face prior L1 loss, lip motion with audio-visual InfoNCE loss) to build an approximately orthogonal disentangled latent space for flexible facial dynamics manipulation.
- - Proposed an optimal-transport (OT)-based flow matching approach with a transformer predictor: The transformer-based vector-field predictor (adopting frame-wise adaptive layer normalization and masked self-attention over neighboring frames) to generate temporally consistent audio-driven motion trajectories efficiently.
-
-
-2. Academic outputs:
- - Authored an academic conference paper detailing the DEMO framework, technical principles, and experimental results.
-
-
-Achievements:
-1. Mastered key technologies for audio-driven talking-portrait synthesis, including disentangled motion latent space construction, OT-based flow matching, and transformer-based conditional motion prediction.
-2. Established a systematic understanding of the audio-driven talking-portrait video synthesis pipeline.
-<br />
-<br />
-
-
-
-------
 **Multifunctional Fiber-Optic Sensing Guidewire for Neurointerventional Assistance**  
 *(Advisor: [Prof. Xing Sheng](http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm), Department of Electronic Engineering, **Tsinghua University**)*<br />
 *June 2024 - August 2024*  
