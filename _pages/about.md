@@ -44,7 +44,7 @@ Publications
 
   <div class="pub-meta">
     <p>
-      <a><strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</strong></a><br/>
+      <strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</strong><br/>
       <em>(CCF-B Under Submission)</em>
     </p>
     <ul>
