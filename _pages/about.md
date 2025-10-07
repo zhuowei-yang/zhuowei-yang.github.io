@@ -47,46 +47,13 @@ Publications
       <em>(CCF-B Under Submission)</em>
     </p>
     <ul>
-      <li>Designed a Fine-Grained Controllable Motion Auto-Encoder: First separates appearance and motion, using motion reconstruction loss, then applies motion-specific contrastive learning (eye gaze with cosine similarity-based contrastive loss, head pose with 3D face prior L1 loss, lip motion with audio-visual InfoNCE loss) to build an approximately orthogonal disentangled latent space for flexible facial dynamics manipulation.</li></li>
+      <li>Designed a Fine-Grained Controllable Motion Auto-Encoder: First separates appearance and motion, using motion reconstruction loss, then applies motion-specific contrastive learning (eye gaze with cosine similarity-based contrastive loss, head pose with 3D face prior L1 loss, lip motion with audio-visual InfoNCE loss) to build an approximately orthogonal disentangled latent space for flexible facial dynamics manipulation.</li>
       <li>Proposed an optimal-transport (OT)-based flow matching approach with a transformer predictor: The transformer-based vector-field predictor (adopting frame-wise adaptive layer normalization and masked self-attention over neighboring frames) to generate temporally consistent audio-driven motion trajectories efficiently.</li>
     </ul>
   </div>
 </div>
 
 
-Publications
-------
-📕Papers
-
-<!-- 可选的局部样式：只影响本段 -->
-<style>
-  .pub-item{display:flex;align-items:flex-start;gap:14px;margin:14px 0 20px 0}
-  .pub-item img{width:240px;max-width:40vw;height:auto;border:1px solid #e5e7eb;border-radius:8px}
-  .pub-meta{flex:1}
-  .pub-meta p{margin:0 0 6px 0}
-  .pub-meta ul{margin:6px 0 0 18px}
-  /* 移动端换行 */
-  @media (max-width:640px){
-    .pub-item{flex-direction:column}
-    .pub-item img{width:100%;max-width:100%}
-  }
-</style>
-
-<div class="pub-item">
-  <!-- 封面图：换成你的图片路径 -->
-  <img src="f:\Homepage\1\zhuowei-yang.github.io\images\paper-1.png" alt="DEMO Paper Cover" />
-
-  <div class="pub-meta">
-    <p>
-      <strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis<strong><br/>
-      <em>(*CCF-B Under Submission*)</em>
-    </p>
-    <ul>
-      <li>Designed <strong>a Fine-Grained Controllable Motion Auto-Encoder<strong>: First separates appearance and motion, using motion reconstruction loss, then applies motion-specific contrastive learning (eye gaze with cosine similarity-based contrastive loss, head pose with 3D face prior L1 loss, lip motion with audio-visual InfoNCE loss) to build an approximately orthogonal disentangled latent space for flexible facial dynamics manipulation.</li>
-      <li>Proposed an optimal-transport (OT)-based flow matching approach with a transformer predictor: The transformer-based vector-field predictor (adopting frame-wise adaptive layer normalization and masked self-attention over neighboring frames) to generate temporally consistent audio-driven motion trajectories efficiently.</li>
-    </ul>
-  </div>
-</div>
 
 Research Experience
 ------
