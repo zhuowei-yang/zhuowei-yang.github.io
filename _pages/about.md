@@ -42,13 +42,12 @@ Publications
 
   <div class="pub-meta">
     <p>
-      <a href="#" target="_blank"><strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</strong></a><br/>
-      <em>CCF-B Under Submission</em>
+      <strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</strong></a><br/>
+      <em>(*CCF-B Under Submission*)</em>
     </p>
     <ul>
-      <li>提出可精细控制的动作潜空间与基于 OT 的 flow matching 生成策略，实现唇形、头姿、眼动的独立控制与时序一致性。</li>
-      <li>使用 transformer 向量场预测器（帧自适应归一化 + 邻域掩码自注意力），提升口型同步与动作保真度。</li>
-      <li>代码与视频示例链接：<a href="#" target="_blank">Project</a> · <a href="#" target="_blank">Paper</a></li>
+      <li>Designed **a Fine-Grained Controllable Motion Auto-Encoder**: First separates appearance and motion, using motion reconstruction loss, then applies motion-specific contrastive learning (eye gaze with cosine similarity-based contrastive loss, head pose with 3D face prior L1 loss, lip motion with audio-visual InfoNCE loss) to build an approximately orthogonal disentangled latent space for flexible facial dynamics manipulation.</li>
+      <li>Proposed an optimal-transport (OT)-based flow matching approach with a transformer predictor: The transformer-based vector-field predictor (adopting frame-wise adaptive layer normalization and masked self-attention over neighboring frames) to generate temporally consistent audio-driven motion trajectories efficiently.</li>
     </ul>
   </div>
 </div>
@@ -120,13 +119,6 @@ Key Contributions:
  - Addressed class overlap challenges via: (1) Contrastive learning for feature augmentation (increasing effective training samples by 3x); (2) Attention mechanisms to weight discriminative signal segments (e.g., 100-500Hz impedance bands for low-molecular-weight proteins)  
  - Achieved **96.7% accuracy** in differentiating 8 protein species (including albumin, IgG, and thrombin), outperforming traditional chemometric methods (PLS-DA, 78.2%) by 18.5%  
  - Validated generalizability across 3 independent datasets (n=420 samples) with <3% accuracy drop, demonstrating AI model's resilience to batch effects and environmental variations  
-
-
-
-Publications
-------
-- **DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis** (CCF-B Under Submission)
-
 
 
 Email
