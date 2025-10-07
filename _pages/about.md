@@ -47,8 +47,8 @@ Publications
       <em>(CCF-B Under Submission)</em>
     </p>
     <ul>
-      <li>Designed a Fine-Grained Controllable Motion Auto-Encoder: First separates appearance and motion, using motion reconstruction loss, then applies motion-specific contrastive learning (eye gaze with cosine similarity-based contrastive loss, head pose with 3D face prior L1 loss, lip motion with audio-visual InfoNCE loss) to build an approximately orthogonal disentangled latent space for flexible facial dynamics manipulation.</li>
-      <li>Proposed an optimal-transport (OT)-based flow matching approach with a transformer predictor: The transformer-based vector-field predictor (adopting frame-wise adaptive layer normalization and masked self-attention over neighboring frames) to generate temporally consistent audio-driven motion trajectories efficiently.</li>
+      <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
+      <li>Introduced OT-based flow matching with a transformer predictor to efficiently sample temporally consistent motion trajectories across consecutive frames.</li>
     </ul>
   </div>
 </div>
