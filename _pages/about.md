@@ -1,6 +1,10 @@
 ---
 permalink: /
+<<<<<<< HEAD
+title: "Zhuowei Yang"
+=======
 title: "About me"
+>>>>>>> c01ec3fadb1f118eaee010991e344a0e895ff95b
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,7 +14,11 @@ He is currently pursuing a Bachelor's Degree in Electrical Engineering,at School
 
 Research Interests
 ------
+<<<<<<< HEAD
+Video Generation, Digital Human Creation, Human-Centered 3D Vision.
+=======
 2D/3D Video Generative Model, AI in health.
+>>>>>>> c01ec3fadb1f118eaee010991e344a0e895ff95b
 
 
 
@@ -22,7 +30,11 @@ Education
 
 Research Experience
 ------
+<<<<<<< HEAD
+**Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis**<br />
+=======
 **Portrait Expression Video Generation via Diffusion Models**<br />
+>>>>>>> c01ec3fadb1f118eaee010991e344a0e895ff95b
 *October 2024 - Present*
 
 Project Overview: Enhanced video generation accuracy and achieved controllable facial expression synthesis through an improved Stable Diffusion framework.
@@ -60,12 +72,21 @@ Developed a dual-modality sensing platform integrating:
 2. *Fluorescent tracer velocimetry*: Implemented blood flow velocity measurement via time-resolved fluorescence tracking  
 
 Key Contributions:  
+<<<<<<< HEAD
+1. Machine Learning–Driven Classification Pipeline  
+- Extracted spectral biomarkers (peak intensities, absorption ratios) and dynamic fluorescence features (rise time, decay constants)
+- Optimized fluorescence excitation/detection modules with lock-in amplification techniques  
+2. Machine Learning-Driven Accuracy Enhancement   
+- Developed end-to-end machine learning pipelines: Implemented spectral-spatiotemporal feature extraction (including wavelet transform for spectral features and time-series embedding for flow dynamics) and compared performance across algorithms (Random Forest, SVM, and lightweight CNN), selecting the optimal model based on cross-validation metrics   
+- Addressed class imbalance in clinical data (via SMOTE augmentation) and minimized overfitting (through L1 regularization), resulting in **92.3% classification accuracy** for hemodynamic states. 
+=======
 1. System Development  
 - Designed MATLAB-based control algorithms for multi-channel fiber-optic signal acquisition
 - Optimized fluorescence excitation/detection modules with lock-in amplification techniques  
 2. Data Analysis  
 - Developed machine learning pipelines for spectral feature extraction  
 - Achieved 92.3% classification accuracy in hemodynamic state recognition 
+>>>>>>> c01ec3fadb1f118eaee010991e344a0e895ff95b
 <br />
 <br />
 
@@ -87,14 +108,25 @@ Key Contributions:
  - Developed PDMS-based microfluidic channels for controlled protein delivery  
 
 2. AI-Driven Analysis  
+<<<<<<< HEAD
+ - Developed a CNN-LSTM hybrid architecture: CNN layers extracted frequency-domain features from impedance spectra, while LSTM modules modeled temporal dynamics of current waveforms, enabling end-to-end learning of complex protein-signal relationships  
+ - Addressed class overlap challenges via: (1) Contrastive learning for feature augmentation (increasing effective training samples by 3x); (2) Attention mechanisms to weight discriminative signal segments (e.g., 100-500Hz impedance bands for low-molecular-weight proteins)  
+ - Achieved **96.7% accuracy** in differentiating 8 protein species (including albumin, IgG, and thrombin), outperforming traditional chemometric methods (PLS-DA, 78.2%) by 18.5%  
+ - Validated generalizability across 3 independent datasets (n=420 samples) with <3% accuracy drop, demonstrating AI model's resilience to batch effects and environmental variations  
+=======
  - Built CNN-LSTM hybrid models for real-time current waveform classification  
  - Improving accuracy in 8-protein species differentiation
+>>>>>>> c01ec3fadb1f118eaee010991e344a0e895ff95b
 
 
 
 Publications
 ------
+<<<<<<< HEAD
+- **DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis** (CCF-B Under Submission)
+=======
 - **Controllable Expressive Talking Video Generation with Diffusion Transformer Networks** (Writing)
+>>>>>>> c01ec3fadb1f118eaee010991e344a0e895ff95b
 
 
 
