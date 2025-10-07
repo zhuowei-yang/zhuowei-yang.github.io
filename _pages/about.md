@@ -45,8 +45,8 @@ Publications
       <strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis<strong><br/>
       <em>(*CCF-B Under Submission*)</em>
     </p>
-    <ul>
-      <li>Designed <strong>a Fine-Grained Controllable Motion Auto-Encoder<strong>: First separates appearance and motion, using motion reconstruction loss, then applies motion-specific contrastive learning (eye gaze with cosine similarity-based contrastive loss, head pose with 3D face prior L1 loss, lip motion with audio-visual InfoNCE loss) to build an approximately orthogonal disentangled latent space for flexible facial dynamics manipulation.</li>
+    <ul style="font-size: 0.9em;">
+      <li>Designed a Fine-Grained Controllable Motion Auto-Encoder: First separates appearance and motion, using motion reconstruction loss, then applies motion-specific contrastive learning (eye gaze with cosine similarity-based contrastive loss, head pose with 3D face prior L1 loss, lip motion with audio-visual InfoNCE loss) to build an approximately orthogonal disentangled latent space for flexible facial dynamics manipulation.</li>
       <li>Proposed an optimal-transport (OT)-based flow matching approach with a transformer predictor: The transformer-based vector-field predictor (adopting frame-wise adaptive layer normalization and masked self-attention over neighboring frames) to generate temporally consistent audio-driven motion trajectories efficiently.</li>
     </ul>
   </div>
