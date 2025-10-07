@@ -40,7 +40,7 @@ Publications
 
 <div class="pub-item">
   <!-- 封面图：换成你的图片路径 -->
-  <img src="/images/paper-1.png" alt="DEMO Paper Cover" />
+  <img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO Paper Cover" width="400">
 
   <div class="pub-meta">
     <p>
