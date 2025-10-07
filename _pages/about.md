@@ -124,6 +124,6 @@ Key Contributions:
  - Validated generalizability across 3 independent datasets (n=420 samples) with <3% accuracy drop, demonstrating AI model's resilience to batch effects and environmental variations  
 
 
-Email
+💼 Email
 ------
 zw.yang.04@gmail.com
