@@ -18,6 +18,43 @@ Education
 ------
 2023.09 -  now , [Hohai University](https://www.hhu.edu.cn/) , Nanjin, (GPA: 4.74/5, rank: 1/30).
 
+
+Publications
+------
+### Papers
+
+<!-- 可选的局部样式：只影响本段 -->
+<style>
+  .pub-item{display:flex;align-items:flex-start;gap:14px;margin:14px 0 20px 0}
+  .pub-item img{width:240px;max-width:40vw;height:auto;border:1px solid #e5e7eb;border-radius:8px}
+  .pub-meta{flex:1}
+  .pub-meta p{margin:0 0 6px 0}
+  .pub-meta ul{margin:6px 0 0 18px}
+  /* 移动端换行 */
+  @media (max-width:640px){
+    .pub-item{flex-direction:column}
+    .pub-item img{width:100%;max-width:100%}
+  }
+</style>
+
+<div class="pub-item">
+  <!-- 封面图：换成你的图片路径 -->
+  <img src="/assets/images/demo_cover.jpg" alt="DEMO Paper Cover" />
+
+  <div class="pub-meta">
+    <p>
+      <a href="#" target="_blank"><strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</strong></a><br/>
+      <em>CCF-B Under Submission</em>
+    </p>
+    <ul>
+      <li>提出可精细控制的动作潜空间与基于 OT 的 flow matching 生成策略，实现唇形、头姿、眼动的独立控制与时序一致性。</li>
+      <li>使用 transformer 向量场预测器（帧自适应归一化 + 邻域掩码自注意力），提升口型同步与动作保真度。</li>
+      <li>代码与视频示例链接：<a href="#" target="_blank">Project</a> · <a href="#" target="_blank">Paper</a></li>
+    </ul>
+  </div>
+</div>
+
+
 Publications
 ------
 📕Papers
@@ -38,7 +75,7 @@ Publications
 
 <div class="pub-item">
   <!-- 封面图：换成你的图片路径 -->
-  <img src="/images/paper-1.png" alt="DEMO Paper Cover" />
+  <img src="f:\Homepage\1\zhuowei-yang.github.io\images\paper-1.png" alt="DEMO Paper Cover" />
 
   <div class="pub-meta">
     <p>
