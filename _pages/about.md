@@ -6,7 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-He is currently pursuing a Bachelor's Degree in Electrical Engineering,at School of Electrical Engineering and Automation,Hohai University(Project 211),China.
+
+I am currently pursuing a Bachelor's Degree in Electrical Engineering,at School of Electrical Engineering and Automation,Hohai University(Project 211),China.
 
 Research Interests
 ------
@@ -43,7 +44,7 @@ Publications
 
   <div class="pub-meta">
     <p>
-      <a href="#" target="_blank"><strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</strong></a><br/>
+      <a><strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</strong></a><br/>
       <em>(CCF-B Under Submission)</em>
     </p>
     <ul>
