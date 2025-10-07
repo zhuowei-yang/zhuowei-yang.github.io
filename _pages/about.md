@@ -21,7 +21,7 @@ Education
 
 Publications
 ------
-### Papers
+📕 Papers
 
 <!-- 可选的局部样式：只影响本段 -->
 <style>
@@ -39,17 +39,16 @@ Publications
 
 <div class="pub-item">
   <!-- 封面图：换成你的图片路径 -->
-  <img src="/assets/images/demo_cover.jpg" alt="DEMO Paper Cover" />
+  <img src="/images/paper-1.png" alt="DEMO Paper Cover" />
 
   <div class="pub-meta">
     <p>
       <a href="#" target="_blank"><strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</strong></a><br/>
-      <em>CCF-B Under Submission</em>
+      <em>(CCF-B Under Submission)</em>
     </p>
     <ul>
-      <li>提出可精细控制的动作潜空间与基于 OT 的 flow matching 生成策略，实现唇形、头姿、眼动的独立控制与时序一致性。</li>
-      <li>使用 transformer 向量场预测器（帧自适应归一化 + 邻域掩码自注意力），提升口型同步与动作保真度。</li>
-      <li>代码与视频示例链接：<a href="#" target="_blank">Project</a> · <a href="#" target="_blank">Paper</a></li>
+      <li>Designed a Fine-Grained Controllable Motion Auto-Encoder: First separates appearance and motion, using motion reconstruction loss, then applies motion-specific contrastive learning (eye gaze with cosine similarity-based contrastive loss, head pose with 3D face prior L1 loss, lip motion with audio-visual InfoNCE loss) to build an approximately orthogonal disentangled latent space for flexible facial dynamics manipulation.</li></li>
+      <li>Proposed an optimal-transport (OT)-based flow matching approach with a transformer predictor: The transformer-based vector-field predictor (adopting frame-wise adaptive layer normalization and masked self-attention over neighboring frames) to generate temporally consistent audio-driven motion trajectories efficiently.</li>
     </ul>
   </div>
 </div>
