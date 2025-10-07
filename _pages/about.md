@@ -24,23 +24,47 @@ Publications
 ------
 📕 Papers
 
-<!-- 可选的局部样式：只影响本段 -->
+<!-- 样式：字体缩小、图片放大、移动端适配 -->
 <style>
-  .pub-item{display:flex;align-items:flex-start;gap:14px;margin:14px 0 20px 0}
-  .pub-item img{width:240px;max-width:40vw;height:auto;border:1px solid #e5e7eb;border-radius:8px}
-  .pub-meta{flex:1}
-  .pub-meta p{margin:0 0 6px 0}
-  .pub-meta ul{margin:6px 0 0 18px}
-  /* 移动端换行 */
-  @media (max-width:640px){
-    .pub-item{flex-direction:column}
-    .pub-item img{width:100%;max-width:100%}
+  .pub-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 14px 0 20px 0;
+  }
+  .pub-item img {
+    width: 400px; /* 调整图片宽度 */
+    max-width: 45vw;
+    height: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+  }
+  .pub-meta {
+    flex: 1;
+    font-size: 0.9em; /* 调整文字整体大小 */
+    line-height: 1.5;
+  }
+  .pub-meta p {
+    margin: 0 0 6px 0;
+  }
+  .pub-meta ul {
+    margin: 6px 0 0 18px;
+  }
+  /* 移动端自动换行 */
+  @media (max-width: 640px) {
+    .pub-item {
+      flex-direction: column;
+    }
+    .pub-item img {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 </style>
 
 <div class="pub-item">
-  <!-- 封面图：换成你的图片路径 -->
-  <img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO Paper Cover" width="400">
+  <!-- 图片路径改成你仓库里实际的位置 -->
+  <img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO Paper Cover">
 
   <div class="pub-meta">
     <p>
@@ -53,6 +77,7 @@ Publications
     </ul>
   </div>
 </div>
+
 
 
 
