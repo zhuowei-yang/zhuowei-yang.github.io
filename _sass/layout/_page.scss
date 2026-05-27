@@ -51,12 +51,14 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.4em;
     border-bottom: 1px solid var(--global-border-color);
+    font-size: $type-size-4;
+    margin-top: 1.8em;
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 0.95em;
   }
 
   /* paragraph indents */
@@ -73,7 +75,7 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
