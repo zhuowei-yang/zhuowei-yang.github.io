@@ -58,7 +58,7 @@ Talking Portrait Synthesis, Co-Speech Gesture Generation, Digital Human Creation
   <div class="pub-meta">
     <p>
       <strong><a href="https://arxiv.org/abs/2510.10650">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></strong><br/>
-      <em>IJCNN (CCF-C)</em>
+      <em>IJCNN 2026 (CCF-C)</em>
     </p>
     <ul>
       <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
