@@ -58,7 +58,8 @@ Talking Portrait Synthesis, Co-Speech Gesture Generation, Digital Human Creation
   <div class="pub-meta">
     <p>
       <strong><a href="https://arxiv.org/abs/2510.10650">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></strong><br/>
-      <em>IJCNN 2026 (CCF-C)</em>
+      <em>IJCNN 2026 (CCF-C)</em><br/>
+      <em>(Advisor: Prof. Peiyin Chen, Hohai University)</em>
     </p>
     <ul>
       <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
@@ -75,7 +76,8 @@ Talking Portrait Synthesis, Co-Speech Gesture Generation, Digital Human Creation
   <div class="pub-meta">
     <p>
       <strong>SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</strong><br/>
-      <em>CCF-A (Under Submission)</em>
+      <em>CCF-A (Under Submission)</em><br/>
+      <em>(Advisor: Prof. Zhaoxin Fan, Beihang University)</em>
     </p>
     <ul>
       <li>Built the TSD-Gesture dataset with 1,620 dyadic clips (~11 hours) covering 5 dialogue-state annotations — the first benchmark featuring real conversational turn-taking with dialogue-state labels for co-speech gesture research.</li>
