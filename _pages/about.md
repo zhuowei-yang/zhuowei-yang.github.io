@@ -11,7 +11,7 @@ I am currently pursuing a Bachelor's Degree in Electrical Engineering,at School 
 
 🎏 Research Interests
 ------
-Video Generation, Digital Human Creation, Human-Centered 3D Vision.
+Talking Portrait Synthesis, Co-Speech Gesture Generation, Digital Human Creation, Generative Models (Flow Matching & Diffusion).
 
 
 
