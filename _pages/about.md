@@ -28,20 +28,19 @@ Video Generation, Digital Human Creation, Human-Centered 3D Vision.
 <style>
   .pub-item {
     display: flex;
-    align-items: flex-start;
-    gap: 16px;
+    flex-direction: column;
+    gap: 12px;
     margin: 14px 0 20px 0;
   }
   .pub-item img {
-    width: 400px; /* 调整图片宽度 */
-    max-width: 45vw;
+    width: 100%;
+    max-width: 480px;
     height: auto;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
   }
   .pub-meta {
-    flex: 1;
-    font-size: 0.9em; /* 调整文字整体大小 */
+    font-size: 0.9em;
     line-height: 1.5;
   }
   .pub-meta p {
@@ -49,16 +48,6 @@ Video Generation, Digital Human Creation, Human-Centered 3D Vision.
   }
   .pub-meta ul {
     margin: 6px 0 0 18px;
-  }
-  /* 移动端自动换行 */
-  @media (max-width: 640px) {
-    .pub-item {
-      flex-direction: column;
-    }
-    .pub-item img {
-      width: 100%;
-      max-width: 100%;
-    }
   }
 </style>
 
