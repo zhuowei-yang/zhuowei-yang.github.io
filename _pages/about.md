@@ -7,95 +7,79 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-  .pub-item {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  .pub-item img {
-    width: 100%;
-    max-width: 720px;
-    height: auto;
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-  }
-  .pub-meta { line-height: 1.65; }
-  .pub-meta p { margin: 0 0 6px 0; }
-  .pub-meta ul { margin: 8px 0 0 18px; }
-</style>
-
 I am currently pursuing a Bachelor's Degree in Electrical Engineering at School of Electrical Engineering and Automation, Hohai University (Project 211), China.
 
 ## Research Interests
 
-Talking Portrait Synthesis, Co-Speech Gesture Generation, Digital Human Creation, Generative Models (Flow Matching & Diffusion).
+<div class="interests">
+  <span>Talking Portrait Synthesis</span>
+  <span>Co-Speech Gesture Generation</span>
+  <span>Digital Human Creation</span>
+  <span>Flow Matching & Diffusion</span>
+</div>
 
 ## Education
 
-2023.09 - Present, [Hohai University](https://www.hhu.edu.cn/), Nanjing (GPA: 4.74/5, Rank: 1/30).
+<div class="edu-line">
+  2023.09 - Present &nbsp;·&nbsp; <a href="https://www.hhu.edu.cn/">Hohai University</a>, Nanjing
+  <span class="edu-badge">GPA 4.74/5 · Rank 1/30</span>
+</div>
 
 ## Publications
 
-<div class="pub-item">
-  <img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO Paper Cover">
-  <div class="pub-meta">
-    <p>
-      <strong><a href="https://arxiv.org/abs/2510.10650">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></strong><br/>
-      <em>IJCNN 2026 (CCF-C)</em><br/>
-      <em>(Advisor: Prof. Peiyin Chen, Hohai University)</em>
-    </p>
-    <ul>
-      <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
-      <li>Introduced OT-based flow matching with a transformer predictor to efficiently sample temporally consistent motion trajectories across consecutive frames.</li>
-    </ul>
-  </div>
+<div class="pub-card">
+  <img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2510.10650">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></div>
+  <span class="pub-venue">IJCNN 2026 (CCF-C)</span>
+  <div class="pub-advisor">Advisor: Prof. Peiyin Chen, Hohai University</div>
+  <ul>
+    <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
+    <li>Introduced OT-based flow matching with a transformer predictor to efficiently sample temporally consistent motion trajectories across consecutive frames.</li>
+  </ul>
 </div>
 
----
-
-<div class="pub-item">
-  <img src="{{ '/images/paper-2.png' | relative_url }}" alt="SyncGesture Pipeline">
-  <div class="pub-meta">
-    <p>
-      <strong>SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</strong><br/>
-      <em>CCF-A (Under Submission)</em><br/>
-      <em>(Advisor: Prof. Zhaoxin Fan, Beihang University)</em>
-    </p>
-    <ul>
-      <li>Built the TSD-Gesture dataset with 1,620 dyadic clips (~11 hours) covering 5 dialogue-state annotations — the first benchmark featuring real conversational turn-taking with dialogue-state labels for co-speech gesture research.</li>
-      <li>Designed a harmonic spectral prior that extracts periodic structures from motion features via learnable frequency-domain filtering, combined with MoE expert networks to produce interpretable periodic parameters for rhythm-coherent motion enhancement.</li>
-      <li>Proposed a conversation-adaptive interaction module using dual cross-attention to extract companion interaction features and dialogue-state features, with per-frame softmax gating to dynamically balance self-motion, partner influence, and dialogue-state information.</li>
-      <li>Achieved SOTA performance on FGD, BC, and Diversity metrics.</li>
-    </ul>
-  </div>
+<div class="pub-card">
+  <img src="{{ '/images/paper-2.png' | relative_url }}" alt="SyncGesture">
+  <div class="pub-title">SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</div>
+  <span class="pub-venue">CCF-A (Under Submission)</span>
+  <div class="pub-advisor">Advisor: Prof. Zhaoxin Fan, Beihang University</div>
+  <ul>
+    <li>Built the TSD-Gesture dataset with 1,620 dyadic clips (~11 hours) covering 5 dialogue-state annotations — the first benchmark with real conversational turn-taking and dialogue-state labels.</li>
+    <li>Designed a harmonic spectral prior that extracts periodic structures from motion features via learnable frequency-domain filtering, combined with MoE expert networks for rhythm-coherent motion enhancement.</li>
+    <li>Proposed a conversation-adaptive interaction module using dual cross-attention with per-frame softmax gating to dynamically balance self-motion, partner influence, and dialogue-state information.</li>
+    <li>Achieved SOTA performance on FGD, BC, and Diversity metrics.</li>
+  </ul>
 </div>
 
 ## Research Experience
 
-**Multifunctional Fiber-Optic Sensing Guidewire for Neurointerventional Assistance**  
-*(Advisor: [Prof. Xing Sheng](http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm), Department of Electronic Engineering, **Tsinghua University**)*  
-*June 2024 - August 2024*
+<div class="exp-block">
+  <div class="exp-title">Multifunctional Fiber-Optic Sensing Guidewire for Neurointerventional Assistance</div>
+  <div class="exp-meta">Advisor: <a href="http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm">Prof. Xing Sheng</a>, Department of Electronic Engineering, <strong>Tsinghua University</strong></div>
+  <div class="exp-time">June 2024 — August 2024</div>
+  <div class="exp-desc">Developed a dual-modality sensing platform integrating hemoglobin spectral sensing for real-time SpO2 monitoring and fluorescent tracer velocimetry for blood flow measurement.</div>
+  <ul>
+    <li>Extracted spectral biomarkers and dynamic fluorescence features; optimized excitation/detection modules with lock-in amplification.</li>
+    <li>Built end-to-end ML pipelines with spectral-spatiotemporal feature extraction, comparing Random Forest, SVM, and lightweight CNN.</li>
+    <li>Addressed class imbalance (SMOTE) and overfitting (L1 regularization), achieving <strong>92.3% classification accuracy</strong> for hemodynamic states.</li>
+  </ul>
+</div>
 
-Developed a dual-modality sensing platform integrating hemoglobin spectral sensing for real-time SpO2 monitoring and fluorescent tracer velocimetry for blood flow measurement.
-
-- Extracted spectral biomarkers and dynamic fluorescence features; optimized excitation/detection modules with lock-in amplification techniques.
-- Developed end-to-end ML pipelines with spectral-spatiotemporal feature extraction (wavelet transform + time-series embedding), comparing Random Forest, SVM, and lightweight CNN.
-- Addressed class imbalance (SMOTE) and overfitting (L1 regularization), achieving **92.3% classification accuracy** for hemodynamic states.
-
----
-
-**Flexible Biosensing Platform for Protein Species Detection**  
-*(Advisor: [Prof. Kewang Nan](https://person.zju.edu.cn/knan), **Zhejiang University**)*  
-*January 2025 - February 2025*
-
-Developed a novel protein detection system with flexible electronic sensors leveraging protein-specific current response variations and multimodal impedance spectroscopy.
-
-- Enhanced sensitivity through interdigitated electrode optimization; developed PDMS-based microfluidic channels for controlled protein delivery.
-- Developed a CNN-LSTM hybrid architecture: CNN for frequency-domain feature extraction from impedance spectra, LSTM for temporal dynamics modeling of current waveforms.
-- Applied contrastive learning (3x sample augmentation) and attention mechanisms for discriminative signal weighting.
-- Achieved **96.7% accuracy** across 8 protein species, outperforming PLS-DA (78.2%) by 18.5%; validated on 3 independent datasets (n=420) with <3% accuracy drop.
+<div class="exp-block">
+  <div class="exp-title">Flexible Biosensing Platform for Protein Species Detection</div>
+  <div class="exp-meta">Advisor: <a href="https://person.zju.edu.cn/knan">Prof. Kewang Nan</a>, <strong>Zhejiang University</strong></div>
+  <div class="exp-time">January 2025 — February 2025</div>
+  <div class="exp-desc">Developed a novel protein detection system with flexible electronic sensors leveraging protein-specific current response variations and multimodal impedance spectroscopy.</div>
+  <ul>
+    <li>Enhanced sensitivity through interdigitated electrode optimization; developed PDMS-based microfluidic channels for controlled protein delivery.</li>
+    <li>Built a CNN-LSTM hybrid architecture for end-to-end learning of complex protein-signal relationships from impedance spectra.</li>
+    <li>Applied contrastive learning (3x augmentation) and attention mechanisms for discriminative signal weighting.</li>
+    <li>Achieved <strong>96.7% accuracy</strong> across 8 protein species, outperforming PLS-DA (78.2%) by 18.5%; validated on 3 independent datasets with &lt;3% accuracy drop.</li>
+  </ul>
+</div>
 
 ## Contact
 
-zw.yang.04@gmail.com
+<div class="contact-line">
+  <a href="mailto:zw.yang.04@gmail.com">zw.yang.04@gmail.com</a>
+</div>

@@ -1,146 +1,404 @@
 /* =============================================
-   Custom site refinements
+   Full visual overhaul
    ============================================= */
 
-/* --- Masthead / Nav bar --- */
-.masthead {
-  border-bottom: 1px solid #eaedf0;
-  backdrop-filter: blur(8px);
-  background: rgba(255,255,255,0.92);
-}
-.greedy-nav a {
-  font-weight: 500;
-  font-size: 0.9em;
-  letter-spacing: 0.01em;
-}
-.greedy-nav .visible-links li:first-child a {
-  font-size: 1.05em;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-}
-.greedy-nav .visible-links a:before {
-  height: 2px;
-  background: #2563a0;
-  bottom: 0;
+/* --- Smooth scroll --- */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 64px;
 }
 
-/* --- Sidebar / Author profile --- */
+/* --- Background --- */
+body {
+  background: #fafbfc;
+}
+
+/* ===================
+   MASTHEAD / NAV
+   =================== */
+.masthead {
+  background: #fff;
+  border-bottom: none;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+}
+.masthead__inner-wrap {
+  padding: 0 1.5em;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+.greedy-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.greedy-nav a {
+  font-size: 0.88em;
+  font-weight: 500;
+  color: #6b7280;
+  padding: 0.5em 0;
+  margin: 0 1em;
+  transition: color 0.15s;
+}
+.greedy-nav a:hover {
+  color: #111827;
+}
+.greedy-nav .visible-links li:first-child a {
+  font-size: 1em;
+  font-weight: 700;
+  color: #111827;
+  margin-left: 0;
+  letter-spacing: -0.02em;
+}
+/* nav underline indicator */
+.greedy-nav .visible-links a:before {
+  height: 2px;
+  background: #3b82f6;
+  bottom: -1px;
+  border-radius: 1px;
+}
+
+/* ===================
+   SIDEBAR / PROFILE
+   =================== */
+.sidebar {
+  padding-top: 60px;
+}
 .author__avatar img {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+  transition: transform 0.3s;
+}
+.author__avatar img:hover {
+  transform: scale(1.03);
+}
+.author__content {
+  padding-top: 6px;
 }
 .author__name {
-  font-size: 1.1em;
+  font-size: 1.15em;
   font-weight: 700;
-  letter-spacing: -0.01em;
+  color: #111827;
+  letter-spacing: -0.02em;
+}
+.sidebar .author__name {
+  font-size: 1.05em;
 }
 .author__bio {
-  font-size: 0.82em;
-  color: #6b7280;
-  line-height: 1.5;
+  font-size: 0.8em;
+  color: #9ca3af;
+  line-height: 1.55;
+  font-style: italic;
+  margin-top: 6px;
+}
+/* sidebar location & links */
+.author__urls-wrapper {
+  margin-top: 4px;
+}
+.author__urls.social-icons li {
+  margin-bottom: 2px;
 }
 .author__urls.social-icons a {
-  font-size: 0.85em;
+  font-size: 0.82em;
+  color: #6b7280;
+  transition: color 0.15s;
+}
+.author__urls.social-icons a:hover {
+  color: #3b82f6;
 }
 .author__urls.social-icons .fa-solid,
 .author__urls.social-icons .fas,
-.author__urls.social-icons .fab {
-  color: #6b7280;
+.author__urls.social-icons .fab,
+.author__urls.social-icons .fa-fw {
+  color: #9ca3af;
+  width: 1.1em;
+}
+.author__desktop i.fa-solid,
+.author__desktop i.fas {
+  color: #9ca3af;
+}
+/* hide follow button */
+.author__urls-wrapper button.btn {
+  display: none !important;
 }
 
-/* --- Page title --- */
+/* ===================
+   MAIN CONTENT
+   =================== */
+#main {
+  margin-top: 1.2em;
+}
+
+/* Page title (name) */
 .archive h1.page__title {
-  font-size: 1.6em;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-size: 1.75em;
+  font-weight: 800;
   color: #111827;
-  margin-bottom: 0.6em;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.3em;
+  line-height: 1.2;
 }
 
-/* --- Section headings --- */
+/* --- Intro paragraph --- */
+.page__content > p:first-of-type {
+  font-size: 1.02em;
+  color: #4b5563;
+  line-height: 1.8;
+  margin-bottom: 0.3em;
+}
+
+/* ===================
+   SECTION HEADINGS
+   =================== */
 .page__content h2 {
-  font-size: 1.2em;
+  font-size: 1.15em;
   font-weight: 700;
-  color: #1f2937;
-  letter-spacing: -0.01em;
-  padding-bottom: 0.35em;
-  border-bottom: 2px solid #e5e7eb;
-  margin-top: 2em;
-  margin-bottom: 0.7em;
+  color: #111827;
+  border-bottom: none;
+  margin-top: 2.2em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0;
+  position: relative;
+  padding-left: 14px;
+}
+.page__content h2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 4px;
+  height: 1em;
+  background: #3b82f6;
+  border-radius: 2px;
 }
 
-/* --- Body text --- */
+/* ===================
+   BODY TEXT
+   =================== */
 .page__content p,
 .page__content li {
   color: #374151;
-  font-size: 0.93em;
-  line-height: 1.75;
+  font-size: 0.92em;
+  line-height: 1.8;
 }
-
-/* --- Links --- */
 .page__content a {
-  color: #2563a0;
+  color: #2563eb;
+  text-decoration: none;
   transition: color 0.15s;
 }
 .page__content a:hover {
-  color: #1d4e80;
+  color: #1d4ed8;
+  text-decoration: none;
+}
+.page__content strong {
+  color: #1f2937;
+  font-weight: 600;
 }
 
-/* --- Horizontal rule --- */
+/* ===================
+   HORIZONTAL RULES
+   =================== */
 .page__content hr {
   border: 0;
-  border-top: 1px solid #e5e7eb;
-  margin: 2em 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #d1d5db, transparent);
+  margin: 2.2em 0;
 }
 
-/* --- Publication items --- */
-.pub-item {
-  margin: 20px 0 32px 0;
-  padding-bottom: 8px;
+/* ===================
+   PUBLICATIONS
+   =================== */
+.pub-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 16px 0 24px 0;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
-.pub-item img {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  transition: box-shadow 0.2s;
+.pub-card:hover {
+  border-color: #bfdbfe;
+  box-shadow: 0 4px 20px rgba(59,130,246,0.08);
 }
-.pub-item img:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+.pub-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 14px;
 }
-.pub-meta strong a {
+.pub-card .pub-title {
+  font-size: 1em;
+  font-weight: 600;
   color: #111827;
-  font-size: 1.02em;
+  line-height: 1.45;
+  margin-bottom: 6px;
 }
-.pub-meta strong a:hover {
-  color: #2563a0;
+.pub-card .pub-title a {
+  color: #111827;
+  text-decoration: none;
+  transition: color 0.15s;
 }
-.pub-meta em {
+.pub-card .pub-title a:hover {
+  color: #2563eb;
+}
+.pub-card .pub-venue {
+  display: inline-block;
+  font-size: 0.78em;
+  font-weight: 600;
+  color: #3b82f6;
+  background: #eff6ff;
+  padding: 2px 10px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.pub-card .pub-advisor {
+  font-size: 0.82em;
+  color: #9ca3af;
+  margin-bottom: 10px;
+}
+.pub-card ul {
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+.pub-card ul li {
+  font-size: 0.85em;
   color: #6b7280;
-  font-size: 0.88em;
+  line-height: 1.7;
+  margin-bottom: 3px;
 }
-.pub-meta ul li {
+
+/* ===================
+   RESEARCH EXPERIENCE
+   =================== */
+.exp-block {
+  position: relative;
+  padding-left: 20px;
+  margin: 18px 0 28px 0;
+  border-left: 2px solid #e5e7eb;
+}
+.exp-block:hover {
+  border-left-color: #93c5fd;
+}
+.exp-block .exp-title {
+  font-size: 0.98em;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 3px;
+  line-height: 1.4;
+}
+.exp-block .exp-meta {
+  font-size: 0.82em;
+  color: #9ca3af;
+  margin-bottom: 3px;
+}
+.exp-block .exp-meta a {
+  color: #6b7280;
+}
+.exp-block .exp-meta a:hover {
+  color: #3b82f6;
+}
+.exp-block .exp-meta strong {
+  color: #6b7280;
+  font-weight: 600;
+}
+.exp-block .exp-time {
+  font-size: 0.78em;
+  color: #3b82f6;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.exp-block .exp-desc {
   font-size: 0.88em;
   color: #4b5563;
-  line-height: 1.65;
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
+.exp-block ul {
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+.exp-block ul li {
+  font-size: 0.85em;
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 2px;
 }
 
-/* --- Research experience bold titles --- */
-.page__content > strong,
-.page__content > p > strong:first-child {
-  color: #111827;
+/* ===================
+   EDUCATION
+   =================== */
+.edu-line {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.92em;
+  color: #374151;
+  line-height: 1.8;
+}
+.edu-line .edu-badge {
+  font-size: 0.76em;
+  font-weight: 600;
+  color: #059669;
+  background: #ecfdf5;
+  padding: 1px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
 }
 
-/* --- Smooth scroll for anchor nav --- */
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 70px;
+/* ===================
+   INTERESTS
+   =================== */
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 4px 0;
+}
+.interests span {
+  font-size: 0.82em;
+  color: #4b5563;
+  background: #f3f4f6;
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
 }
 
-/* --- Footer cleanup --- */
+/* ===================
+   CONTACT
+   =================== */
+.contact-line {
+  font-size: 0.92em;
+  color: #374151;
+}
+.contact-line a {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+/* ===================
+   FOOTER
+   =================== */
 .page__footer {
-  font-size: 0.8em;
-  color: #9ca3af;
+  background: #fafbfc;
   border-top: 1px solid #e5e7eb;
+  font-size: 0.75em;
+  color: #9ca3af;
 }
 
-/* --- Overall content width breathing room --- */
-#main {
-  margin-top: 1.5em;
+/* ===================
+   RESPONSIVE
+   =================== */
+@media (max-width: 768px) {
+  .pub-card { padding: 14px; }
+  .exp-block { padding-left: 14px; }
+  .archive h1.page__title { font-size: 1.4em; }
+  .interests { gap: 4px; }
+  .interests span { font-size: 0.78em; padding: 3px 8px; }
 }
