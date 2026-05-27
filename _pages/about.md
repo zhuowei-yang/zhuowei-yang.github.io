@@ -67,7 +67,22 @@ Video Generation, Digital Human Creation, Human-Centered 3D Vision.
   </div>
 </div>
 
+<div class="pub-item">
+  <img src="{{ '/images/paper-2.png' | relative_url }}" alt="DuetGesture Pipeline">
 
+  <div class="pub-meta">
+    <p>
+      <strong>Rhythm-Aware and Conversation-Adaptive Interaction for Dyadic Co-Speech Gesture Generation</strong><br/>
+      <em>CCF-A (Under Submission)</em>
+    </p>
+    <ul>
+      <li>Built the TSD-Gesture dataset with 1,620 dyadic clips (~11 hours) covering 5 dialogue-state annotations — the first benchmark featuring real conversational turn-taking with dialogue-state labels for co-speech gesture research.</li>
+      <li>Designed a harmonic spectral prior that extracts periodic structures from motion features via learnable frequency-domain filtering, combined with MoE expert networks to produce interpretable periodic parameters for rhythm-coherent motion enhancement.</li>
+      <li>Proposed a conversation-adaptive interaction module using dual cross-attention to extract companion interaction features and dialogue-state features, with per-frame softmax gating to dynamically balance self-motion, partner influence, and dialogue-state information.</li>
+      <li>Achieved SOTA performance on FGD, BC, and Diversity metrics.</li>
+    </ul>
+  </div>
+</div>
 
 
 🔍 Research Experience
