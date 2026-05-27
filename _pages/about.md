@@ -34,7 +34,7 @@ Video Generation, Digital Human Creation, Human-Centered 3D Vision.
   }
   .pub-item img {
     width: 100%;
-    max-width: 480px;
+    max-width: 720px;
     height: auto;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
