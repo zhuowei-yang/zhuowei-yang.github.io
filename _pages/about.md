@@ -72,7 +72,7 @@ Video Generation, Digital Human Creation, Human-Centered 3D Vision.
 
   <div class="pub-meta">
     <p>
-      <strong>Rhythm-Aware and Conversation-Adaptive Interaction for Dyadic Co-Speech Gesture Generation</strong><br/>
+      <strong>SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</strong><br/>
       <em>CCF-A (Under Submission)</em>
     </p>
     <ul>
