@@ -7,58 +7,28 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.E. in Electrical Engineering, Hohai University, 2023.09 - Present (GPA: 4.74/5, Rank: 1/30)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Publications
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **[DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis](https://arxiv.org/abs/2510.10650)**  
+  *IJCNN 2026 (CCF-C)* | Advisor: Prof. Peiyin Chen, Hohai University
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness**  
+  *CCF-A (Under Submission)* | Advisor: Prof. Zhaoxin Fan, Beihang University
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Research Experience
+
+* **Multifunctional Fiber-Optic Sensing Guidewire for Neurointerventional Assistance**  
+  Advisor: [Prof. Xing Sheng](http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm), Tsinghua University | June 2024 - August 2024
+
+* **Flexible Biosensing Platform for Protein Species Detection**  
+  Advisor: [Prof. Kewang Nan](https://person.zju.edu.cn/knan), Zhejiang University | January 2025 - February 2025
+
+## Skills
+
+* Programming: Python, MATLAB, C/C++
+* Frameworks: PyTorch, TensorFlow
+* Research: Deep Generative Models, Flow Matching, Diffusion Models, Computer Vision
