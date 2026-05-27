@@ -58,7 +58,7 @@ Video Generation, Digital Human Creation, Human-Centered 3D Vision.
   <div class="pub-meta">
     <p>
       <strong>DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</strong><br/>
-      <em>(CCF-B Under Submission)</em>
+      <em>IJCNN (CCF-C)</em>
     </p>
     <ul>
       <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
