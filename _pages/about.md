@@ -12,18 +12,17 @@ redirect_from:
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin: 16px 0 28px 0;
   }
   .pub-item img {
     width: 100%;
     max-width: 720px;
     height: auto;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
   }
-  .pub-meta { line-height: 1.6; }
+  .pub-meta { line-height: 1.65; }
   .pub-meta p { margin: 0 0 6px 0; }
-  .pub-meta ul { margin: 6px 0 0 18px; }
+  .pub-meta ul { margin: 8px 0 0 18px; }
 </style>
 
 I am currently pursuing a Bachelor's Degree in Electrical Engineering at School of Electrical Engineering and Automation, Hohai University (Project 211), China.

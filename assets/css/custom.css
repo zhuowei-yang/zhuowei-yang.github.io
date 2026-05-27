@@ -1,0 +1,146 @@
+/* =============================================
+   Custom site refinements
+   ============================================= */
+
+/* --- Masthead / Nav bar --- */
+.masthead {
+  border-bottom: 1px solid #eaedf0;
+  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.92);
+}
+.greedy-nav a {
+  font-weight: 500;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+}
+.greedy-nav .visible-links li:first-child a {
+  font-size: 1.05em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.greedy-nav .visible-links a:before {
+  height: 2px;
+  background: #2563a0;
+  bottom: 0;
+}
+
+/* --- Sidebar / Author profile --- */
+.author__avatar img {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.author__name {
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.author__bio {
+  font-size: 0.82em;
+  color: #6b7280;
+  line-height: 1.5;
+}
+.author__urls.social-icons a {
+  font-size: 0.85em;
+}
+.author__urls.social-icons .fa-solid,
+.author__urls.social-icons .fas,
+.author__urls.social-icons .fab {
+  color: #6b7280;
+}
+
+/* --- Page title --- */
+.archive h1.page__title {
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #111827;
+  margin-bottom: 0.6em;
+}
+
+/* --- Section headings --- */
+.page__content h2 {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #1f2937;
+  letter-spacing: -0.01em;
+  padding-bottom: 0.35em;
+  border-bottom: 2px solid #e5e7eb;
+  margin-top: 2em;
+  margin-bottom: 0.7em;
+}
+
+/* --- Body text --- */
+.page__content p,
+.page__content li {
+  color: #374151;
+  font-size: 0.93em;
+  line-height: 1.75;
+}
+
+/* --- Links --- */
+.page__content a {
+  color: #2563a0;
+  transition: color 0.15s;
+}
+.page__content a:hover {
+  color: #1d4e80;
+}
+
+/* --- Horizontal rule --- */
+.page__content hr {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 2em 0;
+}
+
+/* --- Publication items --- */
+.pub-item {
+  margin: 20px 0 32px 0;
+  padding-bottom: 8px;
+}
+.pub-item img {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s;
+}
+.pub-item img:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+.pub-meta strong a {
+  color: #111827;
+  font-size: 1.02em;
+}
+.pub-meta strong a:hover {
+  color: #2563a0;
+}
+.pub-meta em {
+  color: #6b7280;
+  font-size: 0.88em;
+}
+.pub-meta ul li {
+  font-size: 0.88em;
+  color: #4b5563;
+  line-height: 1.65;
+}
+
+/* --- Research experience bold titles --- */
+.page__content > strong,
+.page__content > p > strong:first-child {
+  color: #111827;
+}
+
+/* --- Smooth scroll for anchor nav --- */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+/* --- Footer cleanup --- */
+.page__footer {
+  font-size: 0.8em;
+  color: #9ca3af;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* --- Overall content width breathing room --- */
+#main {
+  margin-top: 1.5em;
+}
