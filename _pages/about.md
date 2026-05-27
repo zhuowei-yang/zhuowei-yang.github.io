@@ -67,6 +67,8 @@ Video Generation, Digital Human Creation, Human-Centered 3D Vision.
   </div>
 </div>
 
+<hr style="border: none; border-top: 1px solid #ddd; margin: 30px 0;" />
+
 <div class="pub-item">
   <img src="{{ '/images/paper-2.png' | relative_url }}" alt="DuetGesture Pipeline">
 
