@@ -31,7 +31,7 @@ I am currently pursuing a Bachelor's Degree in Electrical Engineering at School 
   <img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO">
   <div class="pub-title"><a href="https://arxiv.org/abs/2510.10650">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></div>
   <span class="pub-venue">IJCNN 2026 (CCF-C)</span>
-  <div class="pub-advisor">Advisor: Prof. Peiyin Chen, Hohai University</div>
+  <div class="pub-advisor">Advisor: Prof. Peiyin Chen, Hohai University · Prof. Rui Yan, Zhejiang University of Technology</div>
   <ul>
     <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
     <li>Introduced OT-based flow matching with a transformer predictor to efficiently sample temporally consistent motion trajectories across consecutive frames.</li>
