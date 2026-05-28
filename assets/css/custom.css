@@ -351,6 +351,11 @@ body {
   border-radius: 4px;
   white-space: nowrap;
 }
+.edu-line .edu-detail {
+  font-size: 0.85em;
+  color: #6b7280;
+  white-space: nowrap;
+}
 
 /* ===================
    INTERESTS
