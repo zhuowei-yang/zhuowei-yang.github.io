@@ -31,7 +31,7 @@ I am currently pursuing a Bachelor's Degree in Electrical Engineering at School 
   <img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO">
   <div class="pub-title"><a href="https://arxiv.org/abs/2510.10650">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></div>
   <span class="pub-venue">IJCNN 2026 (CCF-C)</span>
-  <div class="pub-advisor">Advisor: <strong><em>Prof. Peiyin Chen</em></strong>, Hohai University · <strong><em>Prof. Rui Yan</em></strong>, Zhejiang University of Technology</div>
+  <div class="pub-advisor">Advisor: <strong><em>Prof. Peiyin Chen</em></strong>, <strong>Hohai University</strong> · <strong><em>Prof. Rui Yan</em></strong>, <strong>Zhejiang University of Technology</strong></div>
   <ul>
     <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
     <li>Introduced OT-based flow matching with a transformer predictor to efficiently sample temporally consistent motion trajectories across consecutive frames.</li>
@@ -42,7 +42,7 @@ I am currently pursuing a Bachelor's Degree in Electrical Engineering at School 
   <img src="{{ '/images/paper-2.png' | relative_url }}" alt="SyncGesture">
   <div class="pub-title">SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</div>
   <span class="pub-venue">CCF-A (Under Submission)</span>
-  <div class="pub-advisor">Advisor: <strong><em>Prof. Zhaoxin Fan</em></strong>, Beihang University</div>
+  <div class="pub-advisor">Advisor: <strong><em>Prof. Zhaoxin Fan</em></strong>, <strong>Beihang University</strong></div>
   <ul>
     <li>Built the TSD-Gesture dataset with 1,620 dyadic clips (~11 hours) covering 5 dialogue-state annotations — the first benchmark with real conversational turn-taking and dialogue-state labels.</li>
     <li>Designed a harmonic spectral prior that extracts periodic structures from motion features via learnable frequency-domain filtering, combined with MoE expert networks for rhythm-coherent motion enhancement.</li>
