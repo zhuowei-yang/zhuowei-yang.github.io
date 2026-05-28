@@ -1,3 +1,31 @@
 <!-- start custom footer snippets -->
 <a href="/sitemap/">Sitemap</a>
+
+<script>
+document.querySelectorAll('a[href^="/#"]').forEach(function(a) {
+  a.addEventListener('click', function(e) {
+    var id = this.getAttribute('href').replace('/', '');
+    var target = document.querySelector(id);
+    if (target) {
+      e.preventDefault();
+      var offset = 64;
+      var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+      var start = window.pageYOffset;
+      var dist = top - start;
+      var duration = Math.min(Math.max(Math.abs(dist) * 0.8, 300), 900);
+      var startTime = null;
+      function ease(t) {
+        return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+      }
+      function step(time) {
+        if (!startTime) startTime = time;
+        var progress = Math.min((time - startTime) / duration, 1);
+        window.scrollTo(0, start + dist * ease(progress));
+        if (progress < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+  });
+});
+</script>
 <!-- end custom footer snippets -->

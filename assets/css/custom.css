@@ -2,9 +2,8 @@
    Full visual overhaul
    ============================================= */
 
-/* --- Smooth scroll --- */
+/* --- Scroll padding for anchor links --- */
 html {
-  scroll-behavior: smooth;
   scroll-padding-top: 64px;
 }
 
