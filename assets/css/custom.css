@@ -18,49 +18,20 @@ body {
    =================== */
 .masthead {
   background: #fff;
-  border-bottom: none;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
-}
-.masthead__inner-wrap {
-  padding: 0 1.5em;
-  height: 52px;
-  display: flex;
-  align-items: center;
-}
-.greedy-nav {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-.greedy-nav .visible-links {
-  display: flex;
-  align-items: center;
-  gap: 0;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: none;
 }
 .greedy-nav a {
   font-size: 0.88em;
   font-weight: 500;
   color: #6b7280;
-  padding: 0.5em 0;
-  margin: 0 1em;
   transition: color 0.15s;
 }
 .greedy-nav a:hover {
   color: #111827;
 }
-.greedy-nav .visible-links li:first-child a {
-  font-size: 1em;
-  font-weight: 700;
-  color: #111827;
-  margin-left: 0;
-  letter-spacing: -0.02em;
-}
-/* nav underline indicator */
 .greedy-nav .visible-links a:before {
-  height: 2px;
-  background: #3b82f6;
-  bottom: -1px;
-  border-radius: 1px;
+  display: none;
 }
 
 /* ===================
