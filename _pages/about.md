@@ -21,7 +21,7 @@ I am currently pursuing a Bachelor's Degree in Electrical Engineering at School 
 ## Education
 
 <div class="edu-line">
-  2023.09 - Present &nbsp;·&nbsp; <a href="https://www.hhu.edu.cn/">Hohai University</a>, Nanjing
+  2023.09 - Present: &nbsp;·&nbsp; <a href="https://www.hhu.edu.cn/">Hohai University</a>, Nanjing
   <span class="edu-detail">GPA 4.52/5.00 · Rank 9/30</span>
 </div>
 
