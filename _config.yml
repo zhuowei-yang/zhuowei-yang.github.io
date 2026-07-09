@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Zhuowei Yang"
 title_separator          : "-"
 name                     : &name "Zhuowei Yang"
-description              : &description "personal description"
+description              : &description "Personal academic homepage of Zhuowei Yang — undergraduate at Hohai University working on talking portrait synthesis, co-speech gesture generation, and digital human creation."
 url                      : https://zhuowei-yang.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zhuowei-yang/zhuowei-yang.github.io"
@@ -22,12 +22,12 @@ repository               : "zhuowei-yang/zhuowei-yang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo.png"
+  avatar           : "photo.jpg"
   name             : "Zhuowei Yang"
   pronouns         : # example: "she/her"  
   bio              : "Life is painting a picture, not doing a sum"
-  location         : "Nanjing,China"
-  employer         : 
+  location         : "Nanjing, China"
+  employer         : "Hohai University"
   uri              : # URL
   email            : "zw.yang.04@gmail.com" 
 
@@ -136,7 +136,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "photo.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

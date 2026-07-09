@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently pursuing a Bachelor's Degree in Electrical Engineering at School of Electrical Engineering and Automation, Hohai University (Project 211), China.
+<p class="hero-kicker">B.Eng. student &middot; Digital Human Research</p>
+
+I am currently pursuing a Bachelor's Degree in Electrical Engineering at School of Electrical Engineering and Automation, <a href="https://www.hhu.edu.cn/">Hohai University</a> (Project 211), China. My research centers on digital human generation — talking portrait synthesis and co-speech gesture generation with flow matching and diffusion models.
 
 ## Research Interests
 
@@ -15,40 +17,50 @@ I am currently pursuing a Bachelor's Degree in Electrical Engineering at School 
   <span>Talking Portrait Synthesis</span>
   <span>Co-Speech Gesture Generation</span>
   <span>Digital Human Creation</span>
-  <span>Flow Matching & Diffusion</span>
+  <span>Flow Matching &amp; Diffusion</span>
 </div>
 
 ## Education
 
 <div class="edu-line">
-  2023.09 - Present: &nbsp;·&nbsp; <a href="https://www.hhu.edu.cn/">Hohai University</a>, Nanjing
-  <span class="edu-detail">GPA 4.52/5.00 · Rank 9/30</span>
+  <span class="edu-date">2023.09 — Present</span>
+  <div class="edu-body">
+    <div class="edu-school"><a href="https://www.hhu.edu.cn/">Hohai University</a>, Nanjing</div>
+    <div class="edu-note">B.Eng. in Electrical Engineering <span class="gpa-badge">GPA 4.52/5.00 &middot; Rank 9/30</span></div>
+  </div>
 </div>
 
 ## Publications
 
 <div class="pub-card">
-  <img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2510.10650">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></div>
-  <span class="pub-venue">IJCNN 2026 (CCF-C)</span>
-  <div class="pub-advisor">Advisor: <strong><em>Prof. Peiyin Chen</em>, Hohai University &amp; <em>Prof. Rui Yan</em>, Zhejiang University of Technology</strong></div>
-  <ul>
-    <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
-    <li>Introduced OT-based flow matching with a transformer predictor to efficiently sample temporally consistent motion trajectories across consecutive frames.</li>
-  </ul>
+  <div class="pub-figure"><img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO pipeline overview"></div>
+  <div class="pub-body">
+    <span class="pub-venue">IJCNN 2026 &middot; CCF-C</span>
+    <div class="pub-title"><a href="https://arxiv.org/abs/2510.10650">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></div>
+    <div class="pub-advisor">Advisor: <strong><em>Prof. Peiyin Chen</em>, Hohai University &amp; <em>Prof. Rui Yan</em>, Zhejiang University of Technology</strong></div>
+    <ul>
+      <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
+      <li>Introduced OT-based flow matching with a transformer predictor to efficiently sample temporally consistent motion trajectories across consecutive frames.</li>
+    </ul>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2510.10650">arXiv &#8599;</a>
+    </div>
+  </div>
 </div>
 
 <div class="pub-card">
-  <img src="{{ '/images/paper-2.png' | relative_url }}" alt="SyncGesture">
-  <div class="pub-title">SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</div>
-  <span class="pub-venue">CCF-A (Under Submission)</span>
-  <div class="pub-advisor">Advisor: <strong><em>Prof. Zhaoxin Fan</em>, Beihang University</strong></div>
-  <ul>
-    <li>Built the TSD-Gesture dataset with 1,620 dyadic clips (~11 hours) covering 5 dialogue-state annotations — the first benchmark with real conversational turn-taking and dialogue-state labels.</li>
-    <li>Designed a harmonic spectral prior that extracts periodic structures from motion features via learnable frequency-domain filtering, combined with MoE expert networks for rhythm-coherent motion enhancement.</li>
-    <li>Proposed a conversation-adaptive interaction module using dual cross-attention with per-frame softmax gating to dynamically balance self-motion, partner influence, and dialogue-state information.</li>
-    <li>Achieved SOTA performance on FGD, BC, and Diversity metrics.</li>
-  </ul>
+  <div class="pub-figure"><img src="{{ '/images/paper-2.png' | relative_url }}" alt="SyncGesture framework overview"></div>
+  <div class="pub-body">
+    <span class="pub-venue pub-venue--sub">CCF-A &middot; Under Submission</span>
+    <div class="pub-title">SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</div>
+    <div class="pub-advisor">Advisor: <strong><em>Prof. Zhaoxin Fan</em>, Beihang University</strong></div>
+    <ul>
+      <li>Built the TSD-Gesture dataset with 1,620 dyadic clips (~11 hours) covering 5 dialogue-state annotations — the first benchmark with real conversational turn-taking and dialogue-state labels.</li>
+      <li>Designed a harmonic spectral prior that extracts periodic structures from motion features via learnable frequency-domain filtering, combined with MoE expert networks for rhythm-coherent motion enhancement.</li>
+      <li>Proposed a conversation-adaptive interaction module using dual cross-attention with per-frame softmax gating to dynamically balance self-motion, partner influence, and dialogue-state information.</li>
+      <li>Achieved SOTA performance on FGD, BC, and Diversity metrics.</li>
+    </ul>
+  </div>
 </div>
 
 ## Research Experience
@@ -81,5 +93,6 @@ I am currently pursuing a Bachelor's Degree in Electrical Engineering at School 
 ## Contact
 
 <div class="contact-line">
-  <a href="mailto:zw.yang.04@gmail.com">zw.yang.04@gmail.com</a>
+  <a class="contact-mail" href="mailto:zw.yang.04@gmail.com">zw.yang.04@gmail.com</a>
+  <span class="contact-note">&mdash; the best way to reach me.</span>
 </div>
