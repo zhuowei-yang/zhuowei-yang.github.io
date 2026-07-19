@@ -1,98 +1,111 @@
 ---
-permalink: /
+layout: home
 title: "Zhuowei Yang"
-author_profile: true
-redirect_from: 
+description: "Personal academic homepage of Zhuowei Yang — undergraduate at Hohai University working on talking portrait synthesis, co-speech gesture generation, and digital human creation."
+permalink: /
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<p class="hero-kicker">B.Eng. student &middot; Digital Human Research</p>
-
-I am currently pursuing a Bachelor's Degree in Electrical Engineering at School of Electrical Engineering and Automation, <a href="https://www.hhu.edu.cn/">Hohai University</a> (Project 211), China. My research centers on digital human generation — talking portrait synthesis and co-speech gesture generation with flow matching and diffusion models.
-
-## Research Interests
-
-<div class="interests">
-  <span>Talking Portrait Synthesis</span>
-  <span>Co-Speech Gesture Generation</span>
-  <span>Digital Human Creation</span>
-  <span>Flow Matching &amp; Diffusion</span>
-</div>
-
-## Education
-
-<div class="edu-line">
-  <span class="edu-date">2023.09 — Present</span>
-  <div class="edu-body">
-    <div class="edu-school"><a href="https://www.hhu.edu.cn/">Hohai University</a>, Nanjing</div>
-    <div class="edu-note">B.Eng. in Electrical Engineering <span class="gpa-badge">GPA 4.52/5.00 &middot; Rank 9/30</span></div>
+<section class="profile" id="profile">
+  <div class="profile-image">
+    <img src="{{ '/images/photo.jpg' | relative_url }}" alt="Zhuowei Yang" />
   </div>
-</div>
-
-## Publications
-
-<div class="pub-card">
-  <div class="pub-figure"><img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO pipeline overview"></div>
-  <div class="pub-body">
-    <span class="pub-venue">IJCNN 2026 &middot; CCF-C</span>
-    <div class="pub-title"><a href="https://arxiv.org/abs/2510.10650">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></div>
-    <div class="pub-advisor">Advisor: <strong><em>Prof. Peiyin Chen</em>, Hohai University &amp; <em>Prof. Rui Yan</em>, Zhejiang University of Technology</strong></div>
-    <ul>
-      <li>Designed a motion auto-encoder that constructs a disentangled, fine-grained motion latent space, enabling independent control over lip motion, head pose, and eye gaze.</li>
-      <li>Introduced OT-based flow matching with a transformer predictor to efficiently sample temporally consistent motion trajectories across consecutive frames.</li>
-    </ul>
-    <div class="pub-links">
-      <a href="https://arxiv.org/abs/2510.10650">arXiv &#8599;</a>
+  <div class="profile-info">
+    <h1>Zhuowei Yang</h1>
+    <p class="profile-role">Undergraduate · School of Electrical Engineering and Automation, Hohai University</p>
+    <div class="social-links">
+      <a href="mailto:zw.yang.04@gmail.com">Email</a>
+      <a href="https://github.com/zhuowei-yang" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://arxiv.org/abs/2510.10650" target="_blank" rel="noopener">arXiv</a>
     </div>
   </div>
-</div>
+</section>
 
-<div class="pub-card">
-  <div class="pub-figure"><img src="{{ '/images/paper-2.png' | relative_url }}" alt="SyncGesture framework overview"></div>
-  <div class="pub-body">
-    <span class="pub-venue pub-venue--sub">CCF-A &middot; Under Submission</span>
-    <div class="pub-title">SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</div>
-    <div class="pub-advisor">Advisor: <strong><em>Prof. Zhaoxin Fan</em>, Beihang University</strong></div>
-    <ul>
-      <li>Built the TSD-Gesture dataset with 1,620 dyadic clips (~11 hours) covering 5 dialogue-state annotations — the first benchmark with real conversational turn-taking and dialogue-state labels.</li>
-      <li>Designed a harmonic spectral prior that extracts periodic structures from motion features via learnable frequency-domain filtering, combined with MoE expert networks for rhythm-coherent motion enhancement.</li>
-      <li>Proposed a conversation-adaptive interaction module using dual cross-attention with per-frame softmax gating to dynamically balance self-motion, partner influence, and dialogue-state information.</li>
-      <li>Achieved SOTA performance on FGD, BC, and Diversity metrics.</li>
-    </ul>
+<section class="about" id="about">
+  <h2>About</h2>
+  <p>
+    Hi there 👋, I am Zhuowei Yang, an undergraduate student at the
+    <a href="https://www.hhu.edu.cn/">School of Electrical Engineering and Automation</a>,
+    Hohai University (Project 211), China. My work centers on <strong>digital human generation</strong> —
+    building talking-portrait synthesis and co-speech gesture generation systems with
+    <strong>flow matching and diffusion models</strong>.
+  </p>
+  <p>
+    My research interests lie in <strong>talking portrait synthesis, co-speech gesture generation,
+    and digital human creation</strong>. I am particularly drawn to controllable, temporally
+    consistent generative models for human motion and appearance. I am always open to
+    collaborations, discussions, and new connections.
+  </p>
+</section>
+
+<section class="news" id="news">
+  <h2>News</h2>
+  <ul class="news-list">
+    <li><span class="news-date">2026</span><span class="news-text"><a href="https://arxiv.org/abs/2510.10650">DEMO</a> is accepted to <strong>IJCNN 2026</strong> (CCF-C).</span></li>
+    <li><span class="news-date">2025.10</span><span class="news-text">DEMO, our disentangled motion flow-matching framework for controllable talking-portrait synthesis, is released on arXiv.</span></li>
+    <li><span class="news-date">2025.01</span><span class="news-text">Started a research internship at Zhejiang University with Prof. Kewang Nan.</span></li>
+  </ul>
+</section>
+
+<section class="experience" id="experience">
+  <h2>Education &amp; Experience</h2>
+  <div class="experience-grid">
+    <div class="exp-card">
+      <div class="exp-monogram">HHU</div>
+      <div class="exp-body">
+        <div class="exp-date">Sep 2023 – Present</div>
+        <div class="exp-title">B.Eng., Electrical Engineering &amp; Automation</div>
+        <div class="exp-note"><a href="https://www.hhu.edu.cn/">Hohai University</a>, Nanjing &middot; <strong>GPA 4.52/5.00</strong> &middot; Rank 9/30</div>
+      </div>
+    </div>
+    <div class="exp-card">
+      <div class="exp-monogram">ZJU</div>
+      <div class="exp-body">
+        <div class="exp-date">Jan 2025 – Feb 2025</div>
+        <div class="exp-title">Research Intern, Zhejiang University</div>
+        <div class="exp-note">Flexible biosensing for protein detection &middot; Advisor: <a href="https://person.zju.edu.cn/knan">Prof. Kewang Nan</a></div>
+      </div>
+    </div>
+    <div class="exp-card">
+      <div class="exp-monogram">THU</div>
+      <div class="exp-body">
+        <div class="exp-date">Jun 2024 – Aug 2024</div>
+        <div class="exp-title">Research Intern, Tsinghua University</div>
+        <div class="exp-note">Fiber-optic sensing guidewire, Dept. of Electronic Engineering &middot; Advisor: <a href="http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm">Prof. Xing Sheng</a></div>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
-## Research Experience
+<section class="publications" id="publications">
+  <h2>Publications &amp; Preprints</h2>
 
-<div class="exp-block">
-  <div class="exp-title">Multifunctional Fiber-Optic Sensing Guidewire for Neurointerventional Assistance</div>
-  <div class="exp-meta">Advisor: <strong><em><a href="http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm">Prof. Xing Sheng</a></em>, Department of Electronic Engineering, Tsinghua University</strong></div>
-  <div class="exp-time">June 2024 — August 2024</div>
-  <div class="exp-desc">Developed a dual-modality sensing platform integrating hemoglobin spectral sensing for real-time SpO2 monitoring and fluorescent tracer velocimetry for blood flow measurement.</div>
-  <ul>
-    <li>Extracted spectral biomarkers and dynamic fluorescence features; optimized excitation/detection modules with lock-in amplification.</li>
-    <li>Built end-to-end ML pipelines with spectral-spatiotemporal feature extraction, comparing Random Forest, SVM, and lightweight CNN.</li>
-    <li>Addressed class imbalance (SMOTE) and overfitting (L1 regularization), achieving <strong>92.3% classification accuracy</strong> for hemodynamic states.</li>
-  </ul>
-</div>
+  <div class="pub-item">
+    <div class="pub-thumb">
+      <img src="{{ '/images/paper-1.png' | relative_url }}" alt="DEMO" />
+    </div>
+    <div class="pub-body">
+      <div class="pub-title"><a href="https://arxiv.org/abs/2510.10650" target="_blank" rel="noopener">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></div>
+      <div class="pub-authors"><strong>Zhuowei Yang</strong>, Peiyin Chen, Rui Yan</div>
+      <div class="pub-venue">IJCNN 2026 (CCF-C) · Hohai University &amp; Zhejiang University of Technology</div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2510.10650" target="_blank" rel="noopener">arXiv</a>
+      </div>
+    </div>
+  </div>
 
-<div class="exp-block">
-  <div class="exp-title">Flexible Biosensing Platform for Protein Species Detection</div>
-  <div class="exp-meta">Advisor: <strong><em><a href="https://person.zju.edu.cn/knan">Prof. Kewang Nan</a></em>, Zhejiang University</strong></div>
-  <div class="exp-time">January 2025 — February 2025</div>
-  <div class="exp-desc">Developed a novel protein detection system with flexible electronic sensors leveraging protein-specific current response variations and multimodal impedance spectroscopy.</div>
-  <ul>
-    <li>Enhanced sensitivity through interdigitated electrode optimization; developed PDMS-based microfluidic channels for controlled protein delivery.</li>
-    <li>Built a CNN-LSTM hybrid architecture for end-to-end learning of complex protein-signal relationships from impedance spectra.</li>
-    <li>Applied contrastive learning (3x augmentation) and attention mechanisms for discriminative signal weighting.</li>
-    <li>Achieved <strong>96.7% accuracy</strong> across 8 protein species, outperforming PLS-DA (78.2%) by 18.5%; validated on 3 independent datasets with &lt;3% accuracy drop.</li>
-  </ul>
-</div>
+  <div class="pub-item">
+    <div class="pub-thumb">
+      <img src="{{ '/images/paper-2.png' | relative_url }}" alt="SyncGesture" />
+    </div>
+    <div class="pub-body">
+      <div class="pub-title">SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</div>
+      <div class="pub-authors"><strong>Zhuowei Yang</strong>, Zhaoxin Fan</div>
+      <div class="pub-venue">Under Submission (CCF-A) · Beihang University</div>
+    </div>
+  </div>
+</section>
 
-## Contact
-
-<div class="contact-line">
-  <a class="contact-mail" href="mailto:zw.yang.04@gmail.com">zw.yang.04@gmail.com</a>
-  <span class="contact-note">&mdash; the best way to reach me.</span>
-</div>
+<div class="last-updated">Last updated: July 2026</div>
