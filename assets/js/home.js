@@ -25,6 +25,65 @@
     if (!saved) setTheme(e.matches ? "dark" : "light");
   });
 
+  /* ---------- lightbox for paper figures ---------- */
+  var lb = document.createElement("div");
+  lb.className = "lightbox";
+  lb.setAttribute("role", "dialog");
+  lb.setAttribute("aria-modal", "true");
+  lb.setAttribute("aria-label", "Image viewer");
+  lb.innerHTML =
+    '<button class="lightbox-close" type="button" aria-label="Close">&times;</button>' +
+    '<img class="lightbox-img" alt="">';
+  document.body.appendChild(lb);
+
+  var lbImg = lb.querySelector(".lightbox-img");
+  var lbClose = lb.querySelector(".lightbox-close");
+  var lastFocus = null;
+
+  function openLightbox(src, alt) {
+    lastFocus = document.activeElement;
+    lbImg.src = src;
+    lbImg.alt = alt || "";
+    lb.classList.add("is-open");
+    document.body.style.overflow = "hidden";
+    lbClose.focus();
+  }
+
+  function closeLightbox() {
+    lb.classList.remove("is-open");
+    document.body.style.overflow = "";
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  document.addEventListener("click", function (e) {
+    var img = e.target.closest && e.target.closest(".pub-thumb img");
+    if (img) {
+      openLightbox(img.currentSrc || img.src, img.alt);
+      return;
+    }
+    if (lb.classList.contains("is-open") &&
+        (e.target === lb || e.target === lbImg || e.target === lbClose)) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && lb.classList.contains("is-open")) closeLightbox();
+  });
+
+  /* keyboard access for figures */
+  Array.prototype.forEach.call(document.querySelectorAll(".pub-thumb img"), function (img) {
+    img.setAttribute("tabindex", "0");
+    img.setAttribute("role", "button");
+    img.setAttribute("aria-label", "Enlarge figure: " + (img.alt || "paper figure"));
+    img.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openLightbox(img.currentSrc || img.src, img.alt);
+      }
+    });
+  });
+
   /* ---------- scroll-spy nav ---------- */
   var links = Array.prototype.slice.call(document.querySelectorAll(".nav-link"));
   var sections = links
