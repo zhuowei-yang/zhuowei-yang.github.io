@@ -45,7 +45,9 @@ redirect_from:
   <ul class="news-list">
     <li><span class="news-date">2026</span><span class="news-text"><a href="https://arxiv.org/abs/2510.10650">DEMO</a> is accepted to <strong>IJCNN 2026</strong> (CCF-C).</span></li>
     <li><span class="news-date">2025.10</span><span class="news-text">DEMO, our disentangled motion flow-matching framework for controllable talking-portrait synthesis, is released on arXiv.</span></li>
-    <li><span class="news-date">2025.01</span><span class="news-text">Started a research internship at Zhejiang University with Prof. Kewang Nan.</span></li>
+    <li><span class="news-date">2025.09</span><span class="news-text">Started working with <a href="https://zhaoxinf.github.io/" target="_blank" rel="noopener">Prof. Zhaoxin Fan</a> at <strong>Beihang University</strong> on 3D digital humans and world models (Sep 2025 – Present).</span></li>
+    <li><span class="news-date">2025.01</span><span class="news-text">Research internship at <strong>Zhejiang University</strong> (Jan – Feb 2025) with <a href="https://person.zju.edu.cn/knan" target="_blank" rel="noopener">Prof. Kewang Nan</a>, working on flexible biosensing for protein detection.</span></li>
+    <li><span class="news-date">2024.06</span><span class="news-text">Research internship at <strong>Tsinghua University</strong> (Jun – Aug 2024) with <a href="http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm" target="_blank" rel="noopener">Prof. Xing Sheng</a>, working on fiber-optic sensing guidewires.</span></li>
   </ul>
 </section>
 
@@ -54,7 +56,7 @@ redirect_from:
   <div class="experience-grid">
     <div class="exp-card">
       <div class="exp-aside">
-        <div class="exp-logo">HHU</div>
+        <div class="exp-logo"><img src="{{ '/images/logos/hhu.png' | relative_url }}" alt="Hohai University" loading="lazy"></div>
         <div class="exp-date">Sep 2023 – Present</div>
       </div>
       <div class="exp-body">
@@ -64,7 +66,17 @@ redirect_from:
     </div>
     <div class="exp-card">
       <div class="exp-aside">
-        <div class="exp-logo">ZJU</div>
+        <div class="exp-logo"><img src="{{ '/images/logos/buaa.png' | relative_url }}" alt="Beihang University" loading="lazy"></div>
+        <div class="exp-date">Sep 2025 – Present</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-title">Research Intern, Beihang University</div>
+        <div class="exp-note"><strong>Advisor:</strong> <a href="https://zhaoxinf.github.io/">Prof. Zhaoxin Fan</a> &middot; 3D digital humans and world models</div>
+      </div>
+    </div>
+    <div class="exp-card">
+      <div class="exp-aside">
+        <div class="exp-logo"><img src="{{ '/images/logos/zju.png' | relative_url }}" alt="Zhejiang University" loading="lazy"></div>
         <div class="exp-date">Jan 2025 – Feb 2025</div>
       </div>
       <div class="exp-body">
@@ -74,7 +86,7 @@ redirect_from:
     </div>
     <div class="exp-card">
       <div class="exp-aside">
-        <div class="exp-logo">THU</div>
+        <div class="exp-logo"><img src="{{ '/images/logos/thu.png' | relative_url }}" alt="Tsinghua University" loading="lazy"></div>
         <div class="exp-date">Jun 2024 – Aug 2024</div>
       </div>
       <div class="exp-body">
