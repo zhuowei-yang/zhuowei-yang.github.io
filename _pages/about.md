@@ -53,27 +53,33 @@ redirect_from:
   <h2>Education &amp; Experience</h2>
   <div class="experience-grid">
     <div class="exp-card">
-      <div class="exp-monogram">HHU</div>
-      <div class="exp-body">
+      <div class="exp-aside">
+        <div class="exp-logo">HHU</div>
         <div class="exp-date">Sep 2023 – Present</div>
-        <div class="exp-title">B.Eng., Electrical Engineering &amp; Automation</div>
-        <div class="exp-note"><a href="https://www.hhu.edu.cn/">Hohai University</a>, Nanjing &middot; <strong>GPA 4.52/5.00</strong> &middot; Rank 9/30</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-title">B.Eng., Electrical Engineering &amp; Automation, <a href="https://www.hhu.edu.cn/">Hohai University</a></div>
+        <div class="exp-note"><strong>GPA 4.52/5.00</strong> &middot; Rank 9/30</div>
       </div>
     </div>
     <div class="exp-card">
-      <div class="exp-monogram">ZJU</div>
-      <div class="exp-body">
+      <div class="exp-aside">
+        <div class="exp-logo">ZJU</div>
         <div class="exp-date">Jan 2025 – Feb 2025</div>
+      </div>
+      <div class="exp-body">
         <div class="exp-title">Research Intern, Zhejiang University</div>
-        <div class="exp-note">Flexible biosensing for protein detection &middot; Advisor: <a href="https://person.zju.edu.cn/knan">Prof. Kewang Nan</a></div>
+        <div class="exp-note"><strong>Advisor:</strong> <a href="https://person.zju.edu.cn/knan">Prof. Kewang Nan</a> &middot; Flexible biosensing for protein detection</div>
       </div>
     </div>
     <div class="exp-card">
-      <div class="exp-monogram">THU</div>
-      <div class="exp-body">
+      <div class="exp-aside">
+        <div class="exp-logo">THU</div>
         <div class="exp-date">Jun 2024 – Aug 2024</div>
+      </div>
+      <div class="exp-body">
         <div class="exp-title">Research Intern, Tsinghua University</div>
-        <div class="exp-note">Fiber-optic sensing guidewire, Dept. of Electronic Engineering &middot; Advisor: <a href="http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm">Prof. Xing Sheng</a></div>
+        <div class="exp-note"><strong>Advisor:</strong> <a href="http://web.ee.tsinghua.edu.cn/shengxing/zh_CN/index.htm">Prof. Xing Sheng</a> &middot; Fiber-optic sensing guidewire, Dept. of Electronic Engineering</div>
       </div>
     </div>
   </div>

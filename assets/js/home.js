@@ -3,7 +3,7 @@
 
   /* ---------- theme toggle ---------- */
   var root = document.documentElement;
-  var toggle = document.getElementById("theme-toggle");
+  var toggle = document.getElementById("theme-toggle-btn");
 
   function setTheme(theme) {
     root.setAttribute("data-theme", theme);
