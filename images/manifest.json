@@ -1,5 +1,8 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Zhuowei Yang",
+	"short_name": "Zhuowei Yang",
+	"theme_color": "#0056b3",
+	"background_color": "#ffffff",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Zhuowei Yang"
+title: "Zhuowei Yang · Digital Humans"
 description: "Personal academic homepage of Zhuowei Yang — undergraduate at Hohai University working on talking portrait synthesis, co-speech gesture generation, and digital human creation."
 permalink: /
 redirect_from:
@@ -42,7 +42,7 @@ redirect_from:
 <section class="news" id="news">
   <h2>News</h2>
   <ul class="news-list">
-    <li><span class="news-date">2026.04</span><span class="news-text"><a href="https://arxiv.org/abs/2510.10650">DEMO</a> is accepted to <strong>IJCNN 2026</strong> (CCF-C).</span></li>
+    <li class="is-latest"><span class="news-date">2026.04</span><span class="news-text"><a href="https://arxiv.org/abs/2510.10650">DEMO</a> is accepted to <strong>IJCNN 2026</strong> (CCF-C).</span></li>
     <li><span class="news-date">2025.10</span><span class="news-text">DEMO, our disentangled motion flow-matching framework for controllable talking-portrait synthesis, is released on arXiv.</span></li>
     <li><span class="news-date">2025.09</span><span class="news-text">Started working with <a href="https://zhaoxinf.github.io/" target="_blank" rel="noopener">Prof. Zhaoxin Fan</a> at <strong>Beihang University</strong> on 3D digital humans and world models (Sep 2025 – Present).</span></li>
     <li><span class="news-date">2025.01</span><span class="news-text">Research internship at <strong>Zhejiang University</strong> (Jan – Feb 2025) with <a href="https://person.zju.edu.cn/knan" target="_blank" rel="noopener">Prof. Kewang Nan</a>, working on flexible biosensing for protein detection.</span></li>
@@ -106,7 +106,7 @@ redirect_from:
     <div class="pub-body">
       <div class="pub-title"><a href="https://arxiv.org/abs/2510.10650" target="_blank" rel="noopener">DEMO: Disentangled Motion Latent Flow Matching for Fine-Grained Controllable Talking Portrait Synthesis</a></div>
       <div class="pub-authors"><strong>Zhuowei Yang</strong>, Peiyin Chen, Rui Yan</div>
-      <div class="pub-venue">IJCNN 2026 (CCF-C) · Hohai University &amp; Zhejiang University of Technology</div>
+      <div class="pub-venue pub-venue--accepted">IJCNN 2026 (CCF-C) · Hohai University &amp; Zhejiang University of Technology</div>
       <div class="pub-links">
         <a href="https://arxiv.org/abs/2510.10650" target="_blank" rel="noopener">arXiv</a>
       </div>
@@ -120,7 +120,7 @@ redirect_from:
     <div class="pub-body">
       <div class="pub-title">SyncGesture: Dialogue-Adaptive Dyadic Gesture Synthesis with Rhythm and Interaction Awareness</div>
       <div class="pub-authors"><strong>Zhuowei Yang</strong>, Zhaoxin Fan</div>
-      <div class="pub-venue">Under Submission (CCF-A) · Beihang University</div>
+      <div class="pub-venue pub-venue--review">Under Submission (CCF-A) · Beihang University</div>
     </div>
   </div>
 </section>

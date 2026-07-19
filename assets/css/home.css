@@ -303,6 +303,26 @@ img { max-width: 100%; }
 .news-text { min-width: 0; }
 .news-text a { font-weight: 500; }
 
+/* latest item: a small live dot — recency at a glance */
+.news-list li.is-latest .news-date::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 7px;
+  border-radius: 50%;
+  background: var(--highlight-color);
+  vertical-align: 1px;
+  animation: latest-pulse 2.2s ease-in-out infinite;
+}
+@keyframes latest-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.35; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .news-list li.is-latest .news-date::after { animation: none; }
+}
+
 /* =====================================================
    EXPERIENCE (2-col research cards, logo aside)
    ===================================================== */
@@ -428,6 +448,24 @@ img { max-width: 100%; }
   font-style: italic;
   font-weight: 500;
   line-height: 1.55;
+}
+
+/* paper state, encoded as a tiny dot: blue = accepted, hollow = in review */
+.pub-venue--accepted::before,
+.pub-venue--review::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 7px;
+  border-radius: 50%;
+  vertical-align: 1px;
+}
+.pub-venue--accepted::before { background: var(--link-color); }
+.pub-venue--review::before {
+  background: transparent;
+  border: 1.5px solid var(--text-color-faint);
+  box-sizing: border-box;
 }
 .pub-links {
   display: flex;
