@@ -41,15 +41,20 @@
 }
 
 /* ---------- base ---------- */
-html { scroll-behavior: smooth; }
+/* Global scale: root 17px makes every rem value ~6% larger
+   than the reference while keeping identical proportions. */
+html {
+  font-size: 17px;
+  scroll-behavior: smooth;
+}
 
-[id] { scroll-margin-top: 80px; }
+[id] { scroll-margin-top: 84px; }
 
 body {
   margin: 0;
-  padding-top: 80px;
+  padding-top: 84px;
   font-family: var(--font-family-sans-serif);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.62;
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -68,7 +73,7 @@ h1, h2, h3, h4, h5, h6 { margin-top: 0; margin-bottom: 0.5rem; }
 img { max-width: 100%; }
 
 .container {
-  max-width: 960px;
+  max-width: 1020px;
   margin: 0 auto;
   padding: 2rem 1.75rem;
 }
@@ -90,10 +95,10 @@ img { max-width: 100%; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 960px;
+  max-width: 1020px;
   margin: 0 auto;
   padding: 0 1.5rem;
-  height: 64px;
+  height: 68px;
 }
 .navbar-brand {
   color: var(--text-color);
@@ -174,8 +179,8 @@ img { max-width: 100%; }
 }
 .profile-image { flex-shrink: 0; }
 .profile-image img {
-  width: 132px;
-  height: 132px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border-color);

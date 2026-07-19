@@ -10,7 +10,7 @@ redirect_from:
 
 <section class="profile" id="profile">
   <div class="profile-image">
-    <img src="{{ '/images/photo.jpg' | relative_url }}" alt="Zhuowei Yang" />
+    <img src="{{ '/images/avatar.jpg' | relative_url }}" alt="Zhuowei Yang" />
   </div>
   <div class="profile-info">
     <h1>Zhuowei Yang</h1>
