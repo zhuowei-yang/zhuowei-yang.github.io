@@ -17,7 +17,6 @@ redirect_from:
     <p class="profile-role">Undergraduate · School of Electrical Engineering and Automation, Hohai University</p>
     <div class="social-links">
       <a href="mailto:zw.yang.04@gmail.com">Email</a>
-      <a href="https://github.com/zhuowei-yang" target="_blank" rel="noopener">GitHub</a>
       <a href="https://arxiv.org/abs/2510.10650" target="_blank" rel="noopener">arXiv</a>
     </div>
   </div>
@@ -43,7 +42,7 @@ redirect_from:
 <section class="news" id="news">
   <h2>News</h2>
   <ul class="news-list">
-    <li><span class="news-date">2026</span><span class="news-text"><a href="https://arxiv.org/abs/2510.10650">DEMO</a> is accepted to <strong>IJCNN 2026</strong> (CCF-C).</span></li>
+    <li><span class="news-date">2026.04</span><span class="news-text"><a href="https://arxiv.org/abs/2510.10650">DEMO</a> is accepted to <strong>IJCNN 2026</strong> (CCF-C).</span></li>
     <li><span class="news-date">2025.10</span><span class="news-text">DEMO, our disentangled motion flow-matching framework for controllable talking-portrait synthesis, is released on arXiv.</span></li>
     <li><span class="news-date">2025.09</span><span class="news-text">Started working with <a href="https://zhaoxinf.github.io/" target="_blank" rel="noopener">Prof. Zhaoxin Fan</a> at <strong>Beihang University</strong> on 3D digital humans and world models (Sep 2025 – Present).</span></li>
     <li><span class="news-date">2025.01</span><span class="news-text">Research internship at <strong>Zhejiang University</strong> (Jan – Feb 2025) with <a href="https://person.zju.edu.cn/knan" target="_blank" rel="noopener">Prof. Kewang Nan</a>, working on flexible biosensing for protein detection.</span></li>
