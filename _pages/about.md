@@ -13,7 +13,7 @@ redirect_from:
     <img src="{{ '/images/avatar.jpg' | relative_url }}" alt="Zhuowei Yang" />
   </div>
   <div class="profile-info">
-    <h1>Zhuowei Yang</h1>
+    <h1>Zhuowei Yang<span class="voice-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></h1>
     <p class="profile-role">Undergraduate · School of Electrical Engineering and Automation, Hohai University</p>
     <div class="social-links">
       <a href="mailto:zw.yang.04@gmail.com">Email</a>
