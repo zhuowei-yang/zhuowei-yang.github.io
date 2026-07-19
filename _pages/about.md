@@ -23,7 +23,7 @@ redirect_from:
 </section>
 
 <section class="about" id="about">
-  <h2>About</h2>
+  <h2><svg class="h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>About</h2>
   <p>
     Hi there 👋, I am Zhuowei Yang, an undergraduate student at the
     <a href="https://www.hhu.edu.cn/">School of Electrical Engineering and Automation</a>,
@@ -40,9 +40,9 @@ redirect_from:
 </section>
 
 <section class="news" id="news">
-  <h2>News</h2>
+  <h2><svg class="h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>News</h2>
   <ul class="news-list">
-    <li class="is-latest"><span class="news-date">2026.04</span><span class="news-text"><a href="https://arxiv.org/abs/2510.10650">DEMO</a> is accepted to <strong>IJCNN 2026</strong> (CCF-C).</span></li>
+    <li><span class="news-date">2026.04</span><span class="news-text"><a href="https://arxiv.org/abs/2510.10650">DEMO</a> is accepted to <strong>IJCNN 2026</strong> (CCF-C).</span></li>
     <li><span class="news-date">2025.10</span><span class="news-text">DEMO, our disentangled motion flow-matching framework for controllable talking-portrait synthesis, is released on arXiv.</span></li>
     <li><span class="news-date">2025.09</span><span class="news-text">Started working with <a href="https://zhaoxinf.github.io/" target="_blank" rel="noopener">Prof. Zhaoxin Fan</a> at <strong>Beihang University</strong> on 3D digital humans and world models (Sep 2025 – Present).</span></li>
     <li><span class="news-date">2025.01</span><span class="news-text">Research internship at <strong>Zhejiang University</strong> (Jan – Feb 2025) with <a href="https://person.zju.edu.cn/knan" target="_blank" rel="noopener">Prof. Kewang Nan</a>, working on flexible biosensing for protein detection.</span></li>
@@ -51,7 +51,7 @@ redirect_from:
 </section>
 
 <section class="experience" id="experience">
-  <h2>Education &amp; Experience</h2>
+  <h2><svg class="h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12.5V17c0 1.66 2.69 3 6 3s6-1.34 6-3v-4.5"/></svg>Education &amp; Experience</h2>
   <div class="experience-grid">
     <div class="exp-card">
       <div class="exp-aside">
@@ -97,7 +97,7 @@ redirect_from:
 </section>
 
 <section class="publications" id="publications">
-  <h2>Publications &amp; Preprints</h2>
+  <h2><svg class="h2-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>Publications &amp; Preprints</h2>
 
   <div class="pub-item">
     <div class="pub-thumb">
