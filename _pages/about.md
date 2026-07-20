@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Zhuowei Yang · Digital Humans"
+title: "Zhuowei Yang"
 description: "Personal academic homepage of Zhuowei Yang — undergraduate at Hohai University working on talking portrait synthesis, co-speech gesture generation, and digital human creation."
 permalink: /
 redirect_from:
